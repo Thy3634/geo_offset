@@ -1,0 +1,19 @@
+[package]
+name = "geo_offset"
+version = "0.1.0"
+description = "GCJ-02/BD09/BD09MC coordinates transformer"
+authors = ["thy3634<thy3634@qq.com>"]
+edition = "2021"
+keywords = ["GCJ-02", "BD-09"]
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+geo = "0.24.0"
+
+[dev-dependencies]
+approx = "0.5.1"
+
+[lib]
+crate-type = ["rlib", "cdylib"]
